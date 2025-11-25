@@ -34,3 +34,23 @@ This encourages creative UI contributions.
 
 ### 🧪 How to Test Locally
 1. Run:
+npm install
+npm run dev
+
+2. The `mock-app.tsx` environment will load the gallery component.
+
+### 📁 Files to Modify
+- `ArtGallery.tsx`
+
+### 🚫 Files NOT to Modify
+- `mock-art-data.ts`
+- `mock-app.tsx`
+
+### 📝 Submission
+Submit a PR including:
+- Completed gallery component
+- Responsive grid
+- Hover animations
+- Clean code
+
+Have fun - this is a creativity-focused DevProof challenge!
