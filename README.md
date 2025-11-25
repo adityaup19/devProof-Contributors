@@ -11,7 +11,7 @@ This public repo contains isolated tasks that allow developers and students to c
 3. Fork this repository  
 4. Complete the task in your fork  
 5. Submit a Pull Request  
-6. Earn DevProof points, Linkedin certificates, and leaderboard ranking  
+6. Earn DevProof points, LinkedIn certificates, and leaderboard ranking  
 
 ## 🧩 Current Task
 - **Implement Dark Mode Toggle**  
