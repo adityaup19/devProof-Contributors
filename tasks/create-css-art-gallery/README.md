@@ -33,7 +33,7 @@ npm run dev
 
 2. Preview this task
 
-Open in your browser:
+Open in your browser/ **VS Code**
 
 http://localhost:5173/tasks/create-css-art-gallery
 
