@@ -1,8 +1,8 @@
-** Task: Create a CSS Art Gallery **
+**Task: Create a CSS Art Gallery**
 
-Difficulty: Medium
+**Difficulty: Medium
 Points: 150
-Category: Experimental Project / Visual Creativity
+Category: Experimental Project / Visual Creativity**
 
 🎯 Goal
 
