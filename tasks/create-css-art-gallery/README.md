@@ -1,56 +1,79 @@
-# Task: Create a CSS Art Gallery
+** Task: Create a CSS Art Gallery **
 
-**Difficulty:** Medium  
-**Points:** 150  
-**Category:** Experimental Project / Visual Creativity  
+Difficulty: Medium
+Points: 150
+Category: Experimental Project / Visual Creativity
 
-### 🎯 Goal
-Build a visually engaging gallery that displays CSS-only artwork submitted by contributors.  
-Each artwork will be represented as an interactive card in a responsive grid layout.
+🎯 Goal
 
-### ✔ Requirements
-- Build a grid-based gallery page (`ArtGallery.tsx`)
-- Each “art card” should display:
-  - Title
-  - Creator name
-  - A CSS-only art preview (from mock data)
-- Add simple hover effects (scale, shadow, rotate, glow — your choice)
-- Use animations or transitions in CSS
-- Desktop & mobile responsive
-- Pull preview data from `mock-art-data.ts`
+Build a visually engaging gallery that displays CSS-only artwork submitted by contributors.
+Each artwork will appear as an interactive card in a responsive grid layout.
 
-### 🎨 CSS-Only Art?
-Examples of allowed artwork:
-- pure CSS shapes  
-- gradients  
-- animations  
-- pixel art with box-shadow  
-- neon glow text  
-- CSS drawings  
-- CSS flags  
-No images. No canvases. No libraries.
+✔ Requirements
 
-This encourages creative UI contributions.
+Build a grid-based gallery page (ArtGallery.tsx)
 
-### 🧪 How to Test Locally
-1. Run:
+Each card must show:
+
+Title
+
+Creator name
+
+CSS-only preview (from mock-art-data.ts)
+
+Add hover effects (scale, glow, rotate, etc.)
+
+Include transitions or animations
+
+Must be responsive (desktop + mobile)
+
+Use data from mock-art-data.ts
+
+No images or canvas allowed — CSS only
+
+🧪 How to Test This Task
+
+This repo provides a sandbox preview environment.
+
+1. Start the sandbox
 npm install
 npm run dev
 
-2. The `mock-app.tsx` environment will load the gallery component.
+2. Preview this task
 
-### 📁 Files to Modify
-- `ArtGallery.tsx`
+Open in your browser:
 
-### 🚫 Files NOT to Modify
-- `mock-art-data.ts`
-- `mock-app.tsx`
+http://localhost:5173/tasks/create-css-art-gallery
 
-### 📝 Submission
+3. Set up the preview
+
+Edit the index.tsx file inside this folder:
+
+import ArtGallery from "./ArtGallery";
+
+export default function TaskPreview() {
+  return <ArtGallery />;
+}
+
+The sandbox will render your gallery component.
+
+📁 Files to Modify
+- ArtGallery.tsx
+
+🚫 Files NOT to Modify
+
+- mock-art-data.ts
+
+(optional) any provided mock helpers
+
+📝 Submission
+
 Submit a PR including:
-- Completed gallery component
-- Responsive grid
-- Hover animations
-- Clean code
 
-Have fun - this is a creativity-focused DevProof challenge!
+-Completed gallery component
+-Responsive layout
+-CSS-only art previews
+-Hover & animation effects
+-Clean and readable code
+
+Have fun and be creative!
